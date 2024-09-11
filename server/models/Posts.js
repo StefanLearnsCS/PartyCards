@@ -17,6 +17,18 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.INTEGER,
             defaultValue: 0,
         },
+        instructions: {
+            type: DataTypes.TEXT,
+            allowNull: true, 
+        },
+        playerMin: {
+            type: DataTypes.INTEGER,
+            allowNull: false, 
+        },
+        playerMax: {
+            type: DataTypes.INTEGER,
+            allowNull: false, 
+        },
     });
 
     Posts.associate = (models) => {

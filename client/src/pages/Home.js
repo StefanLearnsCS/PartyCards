@@ -82,7 +82,7 @@ function Home() {
                 made by others, PartyCards has you covered. No more fumbling with real cards—everything you need is right here, ready to bring the 
                 fun to your next event! 
               </h5>
-              <Button size='lg' variant="light" id="home-play-btn" className='rounded-5' onClick={() => navigate('/play')}> Play Now </Button>
+              <Button size='lg' variant="light" id="home-play-btn" className='rounded-5' onClick={() => navigate('/pack/2')}> Preview Game </Button>
             </Col>
             <Col xl="5" lg="6" md="7" className='mt-2'>
               <img 
